@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="2000" pageHeight="842" columnWidth="1960" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="dfb56801-b5c2-422f-8140-7fe957aabac5">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[select * from empdetails;]]>
+	</queryString>
+	<field name="empID" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fn" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ln" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="address" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="email" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="gender" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tp" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="username" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="password" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="depID" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="depName" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="accType" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jobRole" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="empStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="bankName" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="branchName" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="accNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="accName" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="2" width="100" height="20" uuid="5ce8af75-698c-42b4-a27f-42e44eeb5d77"/>
+				<text><![CDATA[empID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="2" width="100" height="20" uuid="df7abaa5-9468-4f36-ab10-25fb09cdd22b"/>
+				<text><![CDATA[fn]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="2" width="100" height="20" uuid="c0f6d31b-4db7-44f5-bdc9-9d1b76599669"/>
+				<text><![CDATA[ln]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="2" width="100" height="20" uuid="68faa5fd-91c4-49d0-8e03-d7a14d0e2873"/>
+				<text><![CDATA[address]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="400" y="2" width="100" height="20" uuid="f88bf9ce-c165-40dd-b309-a317dd8b328e"/>
+				<text><![CDATA[email]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="500" y="2" width="100" height="20" uuid="ac390ac2-a5e5-4c42-939a-fb8621d2df6c"/>
+				<text><![CDATA[gender]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="600" y="2" width="100" height="20" uuid="eb81d0c7-46ec-433b-8174-adc48cc99fd8"/>
+				<text><![CDATA[tp]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="700" y="2" width="100" height="20" uuid="a3542625-7efc-47b5-acd1-888575050788"/>
+				<text><![CDATA[username]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="800" y="2" width="100" height="20" uuid="91cb5e1d-b629-4e62-8d66-9aab98475f9b"/>
+				<text><![CDATA[password]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="900" y="2" width="100" height="20" uuid="74a21537-b8b2-476d-88c7-b6b2f06c80ea"/>
+				<text><![CDATA[depID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1000" y="2" width="100" height="20" uuid="783b2c46-3ba1-4873-bc82-02b6918b46c4"/>
+				<text><![CDATA[depName]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1200" y="2" width="100" height="20" uuid="f0b47c07-ea84-4cf2-a43b-fd2ef26936df"/>
+				<text><![CDATA[accType]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1300" y="2" width="100" height="20" uuid="6eb347f8-5d0c-48f9-8f58-e4e64aecdd18"/>
+				<text><![CDATA[jobRole]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1400" y="2" width="100" height="20" uuid="67ad4a3f-6ecb-4b7f-ab98-0861748a58dc"/>
+				<text><![CDATA[empStatus]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1600" y="2" width="100" height="20" uuid="b0009987-64cf-4718-be14-4be3630ea6b4"/>
+				<text><![CDATA[branchName]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1700" y="2" width="100" height="20" uuid="f8c5e550-d47b-4b0d-b8bb-f962121fe347"/>
+				<text><![CDATA[accNumber]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1800" y="2" width="100" height="20" uuid="36809e2b-8bb6-4504-bde4-44da83f07ad0"/>
+				<text><![CDATA[accName]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1500" y="2" width="100" height="20" uuid="10188dc1-18b0-4121-823e-a8228d195b48"/>
+				<text><![CDATA[bankName]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="35" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="100" height="20" uuid="9239fe89-20b4-4527-918f-028c2b675cef"/>
+				<textFieldExpression><![CDATA[$F{empID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="0" width="100" height="20" uuid="5b89f74f-7d95-49c8-a56e-1c82c0036763"/>
+				<textFieldExpression><![CDATA[$F{fn}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="0" width="100" height="20" uuid="aedfdcaa-ad98-4d23-a8a0-dc09fe3f6766"/>
+				<textFieldExpression><![CDATA[$F{ln}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="0" width="100" height="20" uuid="9d93bedd-5cd2-49d3-904b-a5194f2e5a24"/>
+				<textFieldExpression><![CDATA[$F{address}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="0" width="100" height="20" uuid="8387118e-819a-46a0-8251-12cd88a4129e"/>
+				<textFieldExpression><![CDATA[$F{email}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="500" y="0" width="100" height="20" uuid="9fbffa0e-afea-4c46-876c-2c8e9be53c4e"/>
+				<textFieldExpression><![CDATA[$F{gender}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="600" y="0" width="100" height="20" uuid="ed557337-3a9d-46da-86c1-2477c361bc63"/>
+				<textFieldExpression><![CDATA[$F{tp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="700" y="0" width="100" height="20" uuid="28628df0-aae1-44b9-818b-4c58a4fa354f"/>
+				<textFieldExpression><![CDATA[$F{username}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="800" y="0" width="100" height="20" uuid="d36fff3c-bfad-43ca-978e-aa6a94b51ae3"/>
+				<textFieldExpression><![CDATA[$F{password}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="900" y="0" width="100" height="20" uuid="e84d6873-321d-47ee-aeba-8a33d1f18554"/>
+				<textFieldExpression><![CDATA[$F{depID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1000" y="0" width="100" height="20" uuid="8c573578-624d-4b42-ad7b-fcd42af775bf"/>
+				<textFieldExpression><![CDATA[$F{depName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1200" y="0" width="100" height="20" uuid="89db8efa-14ca-4c58-b711-93f10a66415c"/>
+				<textFieldExpression><![CDATA[$F{accType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1300" y="0" width="100" height="20" uuid="c51f8e4f-8f11-4264-bcbc-9eeeba79de19"/>
+				<textFieldExpression><![CDATA[$F{jobRole}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1400" y="0" width="100" height="20" uuid="f0d63381-af68-403b-8518-c614477357be"/>
+				<textFieldExpression><![CDATA[$F{empStatus}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1500" y="0" width="100" height="20" uuid="0be72870-3786-41fb-b6e2-01dd150ed0f2"/>
+				<textFieldExpression><![CDATA[$F{bankName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1600" y="0" width="100" height="20" uuid="22f39c3f-c87c-4fca-a6ef-70ccd1202c87"/>
+				<textFieldExpression><![CDATA[$F{branchName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1700" y="0" width="100" height="20" uuid="8283b451-7b46-4462-8099-c59737619d29"/>
+				<textFieldExpression><![CDATA[$F{accNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1800" y="0" width="100" height="20" uuid="9aabb03c-102a-4e5b-9a74-31f4f1dc3336"/>
+				<textFieldExpression><![CDATA[$F{accName}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
